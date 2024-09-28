@@ -1,6 +1,6 @@
 # Undangan Rapat Masjid Darul Falah
 
-Repository ini berisi template undangan untuk acara Peringatan Maulid Nabi Muhammad SAW yang dapat digunakan oleh organisasi atau kelompok.
+Repository ini berisi template undangan untuk acara Rapat Masjid Darul Falah Pengurus RISDAF.
 
 ## Deskripsi
 
