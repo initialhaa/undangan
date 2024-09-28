@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+.header {
+    display: flex; /* Menggunakan flexbox untuk menempatkan logo dan konten secara bersamaan */
+    justify-content: space-between; /* Ruang antara logo dan konten */
+    align-items: center; /* Menyelaraskan logo dan konten di tengah secara vertikal */
+    font-weight: bold;
+}
+
+.logo-left, .logo-right {
+    max-width: 100px; /* Ukuran maksimum logo */
+    height: 150px; /* Menjaga proporsi logo */
+    flex-shrink: 0; /* Mencegah logo mengecil */
+}
+
+.header-content {
+    text-align: center;
+    color: green; /* Mengubah warna tulisan kop surat menjadi hijau */
+    flex-grow: 1; /* Memungkinkan konten header mengambil sisa ruang */
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reference-left {
+    text-align: left;
+    width: 50%;
+}
+
+.recipient-right {
+    text-align: right;
+    width: 50%;
+}
+
+.content {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.content p {
+    line-height: 1.6;
+    text-indent: 40px; /* Menambahkan indentasi untuk baris baru */
+}
+
+.salam {
+    text-align: center;
+    font-weight: bold;
+}
+
+.signature {
+    margin-top: 50px;
+}
+
+.signature-left {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.signature-right {
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Menambahkan CSS untuk warna hitam pada Sekretariat dan Tlp. */
+.black-text {
+    color: black;
+}
