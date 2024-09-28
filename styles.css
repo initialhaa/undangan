@@ -11,8 +11,8 @@ body {
 }
 
 .logo-left, .logo-right {
-    max-width: 100px; /* Ukuran maksimum logo */
-    height: 150px; /* Menjaga proporsi logo */
+    max-width: 10px; /* Ukuran maksimum logo */
+    height: 10px; /* Menjaga proporsi logo */
     flex-shrink: 0; /* Mencegah logo mengecil */
 }
 
